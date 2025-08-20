@@ -72,11 +72,22 @@ button:focus-visible {
   height: 80px;
 }
 
+button {
+  text-align: center;
+  height: 45px;
+  width: 70px;
+  padding: 0px;
+}
+
 .container-1 {
   background-color: #3b4664;
 }
 
 .container-1 h1 {
+  color: white;
+}
+
+.container-1 h2 {
   color: white;
 }
 
@@ -93,13 +104,15 @@ button:focus-visible {
   background-color: #eae3db;
   color: #252d44;
   border-bottom: 3px solid #b2a295;
-  text-align: center;
-  height: 45px;
-  width: 70px;
-  padding: 0px;
 }
 
-.container-1 .delete-btn {
+.container-1 button:hover {
+  background-color: white;
+  border: 1px solid white;
+  border-bottom: 3px solid #b2a295;
+}
+
+.container-1 .reset-btn, .container-1 .delete-btn {
   background-color: #647299;
   color: white;
   border-bottom: 3px solid #414e71;
@@ -107,8 +120,11 @@ button:focus-visible {
 
 .container-1 .reset-btn {
   width: 50%;
-  background-color: #647299;
-  color: white;
+}
+
+.container-1 .delete-btn:hover, .container-1 .reset-btn:hover {
+  background-color: #a2b2e3;
+  border: 1px solid #a2b2e3;
   border-bottom: 3px solid #414e71;
 }
 
@@ -117,4 +133,26 @@ button:focus-visible {
   background-color: #d13f30;
   color: white;
   border-bottom: 3px solid #8f2316;
+}
+
+.container-1 .result-btn:hover {
+  background-color: #f96c5b;
+  border: 1px solid #f96c5b;
+  border-bottom: 3px solid #8f2316;
+}
+
+.container-1 .div-theme {
+  width: 60px;
+  height: 20px;
+  background-color: #252d44;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.container-1 .div-circle {
+  width: 15px;
+  height: 15px;
+  background-color: #d13f30;
+  top: 50%;
+  transition: transform 0.3s ease;
 }

@@ -27,12 +27,12 @@ function Buttons({setDataToDisplay}:Props) {
     setDataToDisplay(prev => {
       try{
         let tempStr = prev.replace(/x/g, "*")
-        let result = eval(tempStr)
+        let result = Number(eval(tempStr).toFixed(5))
         return result.toString()
       } catch(ex){
         handleClickReset()
         console.error(ex)
-        return null
+        return ""
       }
     })
   }
