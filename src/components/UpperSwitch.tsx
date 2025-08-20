@@ -8,11 +8,11 @@ function UpperSwitch({ theme, setTheme }: Props) {
     <div className="d-flex justify-content-between align-items-center w-100 mb-3">
       <h1 className='fs-3 fw-bold m-0'>calc</h1>
 
-      <div className='d-flex justify-content-between align-items-center'>
+      <div className='d-flex justify-content-between align-items-end'>
         <h2 className='text-uppercase fs-6 m-0 me-2'>Theme</h2>
 
         <div>
-          <div className="d-flex gap-3 text-white">
+          <div className="d-flex gap-3 text-white" style={{paddingLeft: "5px"}}>
             <p className="p-0 m-0">1</p>
             <p className="p-0 m-0">2</p>
             <p className="p-0 m-0">3</p>
