@@ -80,7 +80,7 @@ button {
 }
 
 .div-theme {
-  width: 70px;
+  width: 71px;
   height: 20px;
   cursor: pointer;
   padding-left: 5px;
@@ -227,4 +227,70 @@ button {
 
 .container-2 .div-circle:hover {
   background-color: #ff8b38;
+}
+
+/* Container 3 */
+.container-3 {
+  background-color: #17062a;
+}
+
+.container-3 h1, .container-3 h2, .container-3 p {
+  color: yellow;
+}
+
+.container-3 .div-display {
+  background-color: #1e0836;
+  color: yellow;
+}
+
+.container-3 .div-buttons {
+  background-color: #1e0836;
+}
+
+.container-3 button {
+  background-color: #331b4d;
+  color: yellow;
+  border-bottom: 3px solid #851c9d;
+}
+
+.container-3 button:hover {
+  background-color: #6b34ac;
+  border: 1px solid #6b34ac;
+  border-bottom: 3px solid #851c9d;
+}
+
+.container-3 .reset-btn, .container-3 .delete-btn {
+  background-color: #56077c;
+  color: yellow;
+  border-bottom: 3px solid #bf15f4;
+}
+
+.container-3 .delete-btn:hover, .container-3 .reset-btn:hover {
+  background-color: #8432ae;
+  border: 1px solid #8432ae;
+  border-bottom: 3px solid #bf15f4;
+}
+
+.container-3 .result-btn {
+  background-color: #00decf;
+  color: white;
+  border-bottom: 3px solid #6ef7ef;
+}
+
+.container-3 .result-btn:hover {
+  background-color: #94fff9;
+  border: 1px solid #94fff9;
+  border-bottom: 3px solid #6ef7ef;
+}
+
+.container-3 .div-theme {
+  background-color: #1e0836;
+}
+
+.container-3 .div-circle {
+  background-color: #6ef7ef;
+}
+
+.container-3 .div-circle:hover {
+  background-color: #94fff9;
 }

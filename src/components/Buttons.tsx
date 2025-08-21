@@ -3,11 +3,21 @@ interface Props {
 }
 
 function Buttons({setDataToDisplay}:Props) {
+  const symbols = ["/", "x", "-", "+"]
+  
   // Handle number input
   function handleClick(data: string) {
-    setDataToDisplay(prev => (
-      prev !== "0" ? prev + data : data
-    ))
+    setDataToDisplay(prev => {
+      let result = prev + data
+
+      if ((prev === "0") && symbols.includes(data)) {
+        result = prev + data
+      } else if ((prev === "0") && !symbols.includes(data)) {
+        result = data
+      }
+
+      return result
+    })
   }
 
   // Handle reset click
