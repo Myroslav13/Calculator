@@ -93,15 +93,16 @@ button {
   transition: transform 0.3s ease;
 }
 
+.reset-btn, .result-btn  {
+  width: 50%;
+}
+
+/* Container 1 */
 .container-1 {
   background-color: #3b4664;
 }
 
-.container-1 h1 {
-  color: white;
-}
-
-.container-1 h2 {
+.container-1 h1, .container-1 h2, .container-1 p {
   color: white;
 }
 
@@ -132,10 +133,6 @@ button {
   border-bottom: 3px solid #414e71;
 }
 
-.container-1 .reset-btn {
-  width: 50%;
-}
-
 .container-1 .delete-btn:hover, .container-1 .reset-btn:hover {
   background-color: #a2b2e3;
   border: 1px solid #a2b2e3;
@@ -143,7 +140,6 @@ button {
 }
 
 .container-1 .result-btn {
-  width: 50%;
   background-color: #d13f30;
   color: white;
   border-bottom: 3px solid #8f2316;
@@ -161,4 +157,74 @@ button {
 
 .container-1 .div-circle {
   background-color: #d13f30;
+}
+
+.container-1 .div-circle:hover {
+  background-color: #f96c5b;
+}
+
+/* Container 2 */
+.container-2 {
+  background-color: #e6e6e6;
+}
+
+.container-2 h1, .container-2 h2, .container-2 p {
+  color: black;
+}
+
+.container-2 .div-display {
+  background-color: white;
+  color: black;
+}
+
+.container-2 .div-buttons {
+  background-color: #d3cdcd;
+}
+
+.container-2 button {
+  background-color: #eae3db;
+  color: #252d44;
+  border-bottom: 3px solid #b2a295;
+}
+
+.container-2 button:hover {
+  background-color: white;
+  border: 1px solid white;
+  border-bottom: 3px solid #b2a295;
+}
+
+.container-2 .reset-btn, .container-2 .delete-btn {
+  background-color: #388187;
+  color: white;
+  border-bottom: 3px solid #1c6166;
+}
+
+.container-2 .delete-btn:hover, .container-2 .reset-btn:hover {
+  background-color: #62b5bd;
+  border: 1px solid #62b5bd;
+  border-bottom: 3px solid #1c6166;
+}
+
+.container-2 .result-btn {
+  background-color: #c85401;
+  color: white;
+  border-bottom: 3px solid #873600;
+}
+
+.container-2 .result-btn:hover {
+  background-color: #ff8b38;
+  border: 1px solid #ff8b38;
+  border-bottom: 3px solid #873600;
+}
+
+.container-2 .div-theme {
+  background-color: #b2a295;
+}
+
+.container-2 .div-circle {
+  background-color: #bc5705;
+}
+
+.container-2 .div-circle:hover {
+  background-color: #ff8b38;
 }

@@ -25,11 +25,11 @@ function Buttons({setDataToDisplay}:Props) {
   // Handle problem solving
   function handleClickSolve() {
     setDataToDisplay(prev => {
-      try{
+      try {
         let tempStr = prev.replace(/x/g, "*")
         let result = Number(eval(tempStr).toFixed(5))
         return result.toString()
-      } catch(ex){
+      } catch(ex) {
         handleClickReset()
         console.error(ex)
         return ""
