@@ -81,7 +81,7 @@ button {
 
 .div-theme {
   width: 71px;
-  height: 20px;
+  height: 22px;
   cursor: pointer;
   padding-left: 5px;
 }
@@ -293,4 +293,73 @@ button {
 
 .container-3 .div-circle:hover {
   background-color: #94fff9;
+}
+
+@media (max-width: 568px) {
+  button {
+    text-align: center;
+    height: 65px;
+    width: 60px;
+    padding: 0px;
+  }
+
+  .container-1 button {
+    border-bottom: 5px solid #b2a295;
+  }
+
+  .container-1 .reset-btn, .container-1 .delete-btn {
+    border-bottom: 5px solid #414e71;
+  }
+
+  .container-1 .delete-btn:hover, .container-1 .reset-btn:hover {
+    border-bottom: 5px solid #414e71;
+  }
+
+  .container-1 .result-btn {
+    border-bottom: 5px solid #8f2316;
+  }
+
+  .container-1 .result-btn:hover {
+    border-bottom: 5px solid #8f2316;
+  }
+
+  .container-2 button {
+    border-bottom: 5px solid #b2a295;
+  }
+
+  .container-2 .reset-btn, .container-2 .delete-btn {
+    border-bottom: 5px solid #1c6166;
+  }
+
+  .container-2 .delete-btn:hover, .container-2 .reset-btn:hover {
+    border-bottom: 5px solid #1c6166;
+  }
+
+  .container-2 .result-btn {
+    border-bottom: 5px solid #873600;
+  }
+
+  .container-2 .result-btn:hover {
+    border-bottom: 5px solid #873600;
+  }
+
+  .container-3 button {
+    border-bottom: 5px solid #851c9d;
+  }
+
+  .container-3 .reset-btn, .container-3 .delete-btn {
+    border-bottom: 5px solid #bf15f4;
+  }
+
+  .container-3 .delete-btn:hover, .container-3 .reset-btn:hover {
+    border-bottom: 5px solid #bf15f4;
+  }
+
+  .container-3 .result-btn {
+    border-bottom: 5px solid #6ef7ef;
+  }
+
+  .container-3 .result-btn:hover {
+    border-bottom: 5px solid #6ef7ef;
+  }
 }
